@@ -31,7 +31,14 @@ h1 {
 	margin-bottom: 55px;
 }
 
-input {
+#error-msg {
+	/* color: ; */
+	background-color: #D33;
+	border-radius: 3px;
+	padding: 4px 10px;
+}
+
+input, #button{
 	background-color: #FFAA04;
 	outline: none;
 	border: 1px white solid;
@@ -66,4 +73,8 @@ img {
 	img {
 		display: inherit;
 	}
+}
+
+.hidden {
+	display: none;
 }
